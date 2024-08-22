@@ -152,7 +152,7 @@ const Login = () => {
                   /> */}
 
               <button className="bg-blue-500 text-white py-3 my-6 rounded font-bold">
-                Sign Up
+                Log in
               </button>
 
               <p className="py-8">

@@ -21,9 +21,7 @@ const AddProduct = () => {
   const [phoneState,setPhoneState] = useState('');
   const productRef = useRef();
   const phoneRef = useRef();
-  // const categoryRef = useRef();
-  // const priceRef = useRef();
-  // const imageRef = useRef();
+  
   function isValidNumber(phoneNumber){
     const phoneNumberPattern = /^\+?\d{0,4}\d{10}$/;
     return phoneNumberPattern.test(phoneNumber)
@@ -35,9 +33,7 @@ const AddProduct = () => {
     
     return querySnapshot.empty;
   };
-  // useEffect(()=>{
-  //   console.log(checkIfProductExists(productName),"sdj ");
-  // },[productName])
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     
